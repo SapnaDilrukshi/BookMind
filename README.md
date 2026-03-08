@@ -30,37 +30,7 @@ Virtual Environments
 
 
 
-🚀 Getting Started
-Backend Setup
-bashcd backend
-
-# Create virtual environment
-python -m venv .venv
-
-# Activate it
-# Windows:
-.venv\Scripts\activate
-# Mac/Linux:
-source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the server
-python app.py
-Frontend Setup
-bashcd frontend
-
-# Get Flutter dependencies
-flutter pub get
-
-# Run the app
-flutter run
-
-
-
 🛠️ Tech Stack
-
 Frontend: Flutter (Dart) —  web Application
 Backend: Python, Flask
 Database: MongoDB (via db.py)
